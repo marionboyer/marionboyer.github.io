@@ -7,45 +7,70 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+    body {
+      padding: 2rem;
+    }
+    .profile-img {
+        width: 170px; 
+        height: auto;
+        /* max-width: 100%; */
+        border-radius: 10px;
+    }
+    .publication-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+
 </head>
   
 <body>
-  
-<div class="container text-center">
-  <div class="row">
-    <div class="col-sm-3">
-    <h1><img id="Marion" src="images/me.JPG" style="height: 90%; width: 90%; margin-bottom:25px; object-fit: contain" style="float:right;" alt="Myself"  class="alignleft size-thumbnail wp-image-48 rounded"/></h1>
-			
-    </div>
-    <div class="col-sm-9">
-      <h1>Marion Boyer</h1>
-      <p> I am a 3rd year PhD student at INRIA. </p>
+
+  <!-- Profile Section -->
+  <div class="container mb-5">
+    <div class="row align-items-start">
+      <!-- Profile Image + Contact -->
+      <div class="col-md-3 text-center">
+        <img src="images/me-4-5.JPG" alt="Profile Picture" class="profile-img mb-2" />
+        <p><a href="mailto:marion.boyer@inria.fr">Contact</a></p>
+      </div>
+
+      <div class="col-md-9">
+        <h1>Marion Boyer</h1>
+        <p>I am a third year PhD student at INRIA under the supervision of he supervision of <a href="http://www-sop.inria.fr/members/Florent.Lafarge/">Florent Lafarge</a></p> . 
+      </div>
     </div>
   </div>
-</div> 
-<div class="container text-center">
+
+<div class="container mb-5">
   <div class="row">
     <div class="col-sm-2">
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-7">
       <h2>Publication</h2>
-       <div class="d-flex flex-row">
-                <div class="p-2"><img src="teasers/LineFit.png" width="128" height="128" alt="registration"></div>
-                <div class="p-2">
-                    <strong>LineFit: A Geometric Approach for Fitting Linn Segments in Images</strong>
-                    <br/>
+          <div class="row align-items-center border rounded p-3 mb-3">
+            <div class="col-md-2 text-center">
+                <img src="teasers/LineFit.png" alt="Publication" class="publication-img" />
+            </div>
+            <div class="col-md-10 d-flex flex-column justify-content-center">
+                <strong>LineFit: A Geometric Approach for Fitting Line Segments in Images</strong>
+                <br/>
 					<u>Marion Boyer</u>, 
                     David Youssefi, Florent Lafarge<br/>
 					<em>Proc. of the European Conference on Computer Vision (ECCV), 2024</em><br/>
 					[<a href="https://hal.science/hal-04648268v1/file/Marion_ECCV24.pdf" target="_blank">pdf</a>, 
                      <a href="https://hal.science/hal-04648268v1/file/Marion-ECCV24-supp.pdf" target="_blank">supplementary</a>,
                      <a href="https://project.inria.fr/roofsat/" target="_blank">software and dataset</a>]<br/>
-                </div>
-			</div>
-    </div>
-    <div class="col-sm-2">
+            </div>
+
+    <div class="col-sm-1">
     </div>
   </div>
 </div> 
 </body>
 </html>
+
