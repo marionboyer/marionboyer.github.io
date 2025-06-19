@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Personal website</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Marion Boyer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
     <style>
     body {
-      padding: 2rem;
+        padding: 2rem;
     }
     .profile-img {
         width: 170px; 
@@ -19,58 +17,85 @@
         border-radius: 10px;
     }
     .publication-img {
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
-      border-radius: 8px;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 8px;
     }
-  </style>
+    </style>
 
 </head>
   
 <body>
 
-  <!-- Profile Section -->
-  <div class="container mb-5">
-    <div class="row align-items-start">
-      <!-- Profile Image + Contact -->
-      <div class="col-md-3 text-center">
-        <img src="images/me-4-5.JPG" alt="Profile Picture" class="profile-img mb-2" />
-        <p><a href="mailto:marion.boyer@inria.fr">Contact</a></p>
-      </div>
-
-      <div class="col-md-9">
-        <h1>Marion Boyer</h1>
-        <p>I am a third year PhD student at INRIA under the supervision of he supervision of <a href="http://www-sop.inria.fr/members/Florent.Lafarge/">Florent Lafarge</a></p> . 
-      </div>
-    </div>
-  </div>
-
+<!-- Profile Section -->
 <div class="container mb-5">
-  <div class="row">
-    <div class="col-sm-2">
-    </div>
-    <div class="col-sm-7">
-      <h2>Publication</h2>
-          <div class="row align-items-center border rounded p-3 mb-3">
-            <div class="col-md-2 text-center">
-                <img src="teasers/LineFit.png" alt="Publication" class="publication-img" />
-            </div>
-            <div class="col-md-10 d-flex flex-column justify-content-center">
-                <strong>LineFit: A Geometric Approach for Fitting Line Segments in Images</strong>
-                <br/>
-					<u>Marion Boyer</u>, 
-                    David Youssefi, Florent Lafarge<br/>
-					<em>Proc. of the European Conference on Computer Vision (ECCV), 2024</em><br/>
-					[<a href="https://hal.science/hal-04648268v1/file/Marion_ECCV24.pdf" target="_blank">pdf</a>, 
-                     <a href="https://hal.science/hal-04648268v1/file/Marion-ECCV24-supp.pdf" target="_blank">supplementary</a>,
-                     <a href="https://project.inria.fr/roofsat/" target="_blank">software and dataset</a>]<br/>
-            </div>
+    <div class="row align-items-start">
+        <!-- Profile Image + Contact -->
+        <div class="col-md-3 text-center">
+            <img src="images/me_small.JPG" alt="Profile Picture" class="profile-img mb-2" />
+            <h4> Contact:</h4>
+            <p> First name.Last name@inria.fr </p>
+        </div>
 
-    <div class="col-sm-1">
+        <div class="col-md-9">
+            <h1>Marion Boyer</h1>
+            <p>I am a third year Ph.D. student at Inria in the Titane team, under the supervision of <a href="http://www-sop.inria.fr/members/Florent.Lafarge/" target="_blank">Florent Lafarge</a>.
+            My research is co-funded and supported by the <a href="https://cnes.fr/" target="_blank">French Space Agency (CNES)</a> and <a href="https://www.airbus.com/en" target="_blank"> Airbus Defense and Space</a>.
+            <br/>
+            My research combines the topics of computer vision and remote sensing. My current project focuses on building reconstruction from satellite images by improving each step of the pipeline.<br/>
+            
+            <br/>
+            I graduated with a Master's-equivalent diploma from the engineering school <a href="https://enseirb-matmeca.bordeaux-inp.fr/fr" target="_blank">ENSEIRB-MATMECA</a> in electronics with a specialization on image and signal processing in 2022. I did my final year internship at the French Space Agency (CNES) on matching of stereo images.
+
+            </p>
+        </div>
     </div>
-  </div>
-</div> 
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+            <h2>Publications & outreach</h2>
+            <div class="card mb-8 border-0" style="">
+                <div class="row g-0">
+                    <div class="col-md-2 col-sm-4 col-6 mx-auto mx-md-0 d-flex align-items-center justify-content-center">
+                        <img src="images/logo_MT180.png" class="img-fluid rounded" alt="MT180 logo">
+                    </div>
+                    <div class="col-md-10">
+                        <div class="card-body">
+                            <h5 class="card-title">Ma thèse en 180 secondes</h5>
+                            <p class="card-text">Université Côte d'Azur, édition 2025</p>
+                            <p class="card-text"><small class="text-body-secondary">[<a href="https://www.youtube.com/watch?v=9nuxGBiNL7w&t=2015s" target="_blank">video</a>]</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="card mb-8 border-0" style="">
+                <div class="row g-0">
+                    <div class="col-md-2 col-sm-4 col-6 mx-auto mx-md-0 d-flex align-items-center justify-content-center">
+                        <img src="teasers/LineFit.png" class="img-fluid rounded" alt="MT180 logo">
+                    </div>
+                    <div class="col-md-10">
+                        <div class="card-body">
+                            <h5 class="card-title">LineFit: A Geometric Approach for Fitting Line Segments in Images</h5>
+                            <p class="card-text">
+                                <u>Marion Boyer</u>, David Youssefi, Florent Lafarge<br/>
+                                <em>Proc. of the European Conference on Computer Vision (ECCV), 2024</em><br/>
+                                <small class="text-body-secondary">
+                                [<a href="https://hal.science/hal-04648268v1/file/Marion_ECCV24.pdf" target="_blank">pdf</a>, 
+                                <a href="https://hal.science/hal-04648268v1/file/Marion-ECCV24-supp.pdf" target="_blank">supplementary</a>,
+                                <a href="https://project.inria.fr/roofsat/" target="_blank">software and dataset</a>]
+                            </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
-
